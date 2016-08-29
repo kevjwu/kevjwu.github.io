@@ -401,7 +401,8 @@ function hyphenate(str) {
 
     var rect = elem.getBoundingClientRect(),
         parRect = elem.parentNode.getBoundingClientRect(),
-        winRect = document.body.getBoundingClientRect(),
+        // winRect = document.body.getBoundingClientRect(),
+        winRect = { width: window.innerWidth, height: window.innerHeight },
         winY = window.pageYOffset,
         winX = window.pageXOffset;
 
