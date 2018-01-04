@@ -51,20 +51,20 @@ a {
     width: auto;
 }
 
-#panel1v{
+#about{
     font-size: 14px;
 }
 
 
-#panel2v{
+#education{
     font-size: 13px;
 }
 
-#panel3v{
+#experience{
     font-size: 14px;
 }
 
-#panel4v{
+#research{
     font-size: 13px;
 }
 
@@ -94,7 +94,7 @@ a {
     height: 12px;
 }
 
-#panel5v{
+#projects{
     font-size: 14px;
 }
 
