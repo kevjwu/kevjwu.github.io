@@ -40,7 +40,7 @@
         <!-- ABOUT ME -->
         <div class="tabs-panel" id="about">
           <br></br>
-          <p>Data scientist and full-stack engineer based in the New York metropolitan area with extensive experience building natural language processing tools and working with financial market data. Former quant analyst and trader passionate about machine learning/AI, financial markets, and blockchain technologies. </p>
+          <p>Machine learning expert and full-stack engineer based in the New York metropolitan area, with extensive experience building natural language processing tools and working with financial market data. Former quant analyst and trader passionate about machine learning and AI, financial markets, and blockchain technologies. </p>
           <p>Currently pursuing a Master's in Computer Science at Columbia University.</p>
 
           <p>Contact: <a href="mailto:kevinwu103@gmail.com"><font color="white">kevinwu103@gmail.com</a></font></p>
@@ -103,18 +103,24 @@
         <!-- PROJECTS -->
         <div class="tabs-panel" id="research">
         
+ 	<b><i>"Q-Trading": Learning to Scalp Using Order Book Features</b></i>
+         <p><i>IEOR 8100, “Reinforcement Learning” Final Project (May 2018)</i> | 
+         <a href="content/q-learning-trading-final.pdf" target="_blank">Full Text</a> | <a href="content/q-learning-trading-slides.pdf" target="_blank">Slides</a>
+         <p>
+	I explore the feasibility of using Q-learning to train a high-frequency trading (HFT) agent that can capitalize on short-term price fluctuations, using only order book features as inputs. I propose a specfic functional form for the agent's value function based on domain intuition and evaluate the performance of Q-learning trading algorithms by replaying historical Bitcoin-USD exchange rate data through a naive market simulator. Overall, I find that Q-learning may be used to generate modest returns from an aggressive scalping strategy with short holding periods, while providing a high degree of human interpretability in the learned parameters.
+	 </p> 
+
+
+
          <b><i> Online Learning Techniques for Portfolio Allocation</b></i>
          <p><i>COMS 6998.001, “Bandits and Reinforcement Learning” Final Project (December 2017)</i> | 
          <a href="content/coms6998-writeup.pdf" target="_blank">Full Text</a> | <a href="content/coms6998-slides.pdf" target="_blank">Slides</a> | <a href="https://github.com/kevjwu/no-regret-trading" target="_blank">Code</a></p>
          <p>
-          We undertake an empirical study of regret-minimizing online learning algorithms, in particular, the widely-cited Exponentiated Gradient (EG) algorithm proposed by Helmbold et al in 1998. We rerun parts of Helmbold's various on modern-day US stock market data and find that the algorithm fails to significantly outperform benchmark portfolios from 2000 to the present. We identify particular situations in which a multiplicative weight update algorithm like EG is more likely to fail, and also offer up possible explanations for its poor returns on post-2000 equity data.</p>
-         <p>
-          Finally, we also present a novel application of EG in which wealth is allocated among trading strategies rather than directly to stocks; we find that by allocating wealth to mean reversion-based strategies, one can not only significantly outperform benchmark and EG portfolios, but also come close to achieving the returns optimal (regret-minimizing) portfolio allocation. 
-         </p>
-      
+          An empirical study of regret-minimizing online learning algorithms, in particular, the widely-cited Exponentiated Gradient (EG) algorithm (Helmbold et al., 1998). We reimplement EG and run a new set of experiments on modern-day US stock market data, and we find that the algorithm fails to significantly outperform benchmark portfolios from 2000 to the present. However, we present a novel application of EG in which wealth is allocated among trading strategies rather than directly to stocks, and we find that an algorithm that allocates wealth to mean reversion-based strategies can not only significantly outperform benchmark and EG portfolios, but also comes close to achieving the optimal portfolio allocation in hindsight. 
+         </p> 
       <b><i>Understanding “Fedspeak”: Identifying the Sources of Market Sentiment in Central Bank Communications</b></i>
          <p><i>Senior thesis, presented to the Harvard University Department of Applied Mathematics (April 2014)</i> | <a href="content/thesis.pdf" target="_blank">Full Text</a></p>
-         <p>I examined the effect of one of the Federal Open Market Committee’s post-meeting announcement—one of the most highly anticipated economic release in the financial community—on short-term stock market returns. Whereas the relationship between Twitter or financial news and the polarity of Fed statements has been the subject of extensive research, I directly used returns on stock market indices to categorize statements as positive or negative. The other novelty of this approach was the use of L1-regression to identify a small number of influential phrases from central bank announcements from all possible n-grams.</p>
+         <p>I examined the effect of one of the Federal Open Market Committee’s post-meeting announcement - one of the most highly anticipated economic release in the financial community — on short-term stock market returns. Whereas the relationship between Twitter or financial news and the polarity of Fed statements has been the subject of extensive research, I directly used returns on stock market indices to categorize statements as positive or negative. The other novelty of this approach was the use of L1-regression to identify a small number of influential phrases from central bank announcements from all possible n-grams.</p>
 
 
       </div>
