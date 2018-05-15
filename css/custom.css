@@ -1,12 +1,12 @@
 body {
     font-family: 'Roboto', serif;
-    background-image: url("../img/fog_2.jpg"); 
+    background-image: url("../img/fog_2.jpg");
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
     background-repeat:   no-repeat;
-    background-position: center center;  
+    background-position: center center;
     height: auto;
 }
 
