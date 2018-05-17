@@ -35,7 +35,7 @@ a {
 
 #blurb{
     text-align: center;
-    line-height:16px;
+    line-height:24px;
     text-shadow: 1px 1px #aaa;
     letter-spacing: .5px;
 }
@@ -65,7 +65,7 @@ a {
 }
 
 #research{
-    font-size: 13px;
+    font-size: 12px;
 }
 
 #column_lborder{
@@ -95,5 +95,7 @@ a {
 }
 
 #projects{
-    font-size: 13px;
+    font-size: 12px;
+/*    background: rgba(255, 255, 255, 0.2); */
 }
+
